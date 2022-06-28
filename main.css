@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight:900;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;       
+    user-select: none;     
+    color: var(--tg-theme-text-color);
+    background: var(--tg-theme-bg-color);
+}
+
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.containerForProducts{
+    position: relative;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    height: 550px;
+}
+
+.card{
+    position: relative;
+    width: 45%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.imgBlock{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.imgBlockActive{
+    position: relative;
+    width: 100vh;
+    height: 100vh;
+    background: var(--tg-theme-bg-color);
+    margin: 0 auto;
+    z-index: 9999;
+}
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.imgActive{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    background: var(--tg-theme-bg-color);
+    border-radius: 10px;
+    position: fixed;
+    left: 15%;
+    top: 10%;
+    z-index: 9999;
+}
+
+.name{
+    height: 100px;
+}
+
+h4{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.priceBlock{
+    margin: 0 auto;
+    display: flex;
+}
+
+.price{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.counter{
+    position: relative;
+    width: 90%;
+    height: 50px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.decrement, .increment{
+    width: 48%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    color: white;
+    font-size: 60px;
+}
+
+.decrement{
+    position: absolute;
+    left: 0;
+    background: rgb(235, 65, 65);
+}
+
+.increment{
+    position: absolute;
+    right: 0;
+    background: rgb(253, 174, 26);
+}
+
+.tableCounter{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    border-radius: 100%;
+    background: rgb(253, 174, 26);
+    text-align: center;
+    line-height: 40px;
+    z-index: 9999;
+}
+
+.buttonChoose{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    background: rgb(253, 174, 26);
+    text-align: center;
+    line-height: 50px;
+}
+
+.buttonInput{
+    text-align: center;
+}
+
+.active{
+    display: none;
+}
